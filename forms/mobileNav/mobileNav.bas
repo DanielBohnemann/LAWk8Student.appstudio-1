@@ -1,7 +1,7 @@
 hmbMenu.onclick = Function(s) {
   If (typeof(s) == "object") {
     return
-  } Else {
+ }  else {
     switch (s) {
       Case "Dessert Voting":
         ChangeForm(dessertVoting)

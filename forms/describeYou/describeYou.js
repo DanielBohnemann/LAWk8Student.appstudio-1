@@ -10,10 +10,6 @@ rdoPersonalityType.onchange=function(){
     lblPrompt2.value = (`I would agree that you are a ${userChoice} person too!`)
 }
 
-.onclick = function() {
+btnFavExercises.onclick = function() {
   ChangeForm(favExercises)
 }
-
-
-
-
